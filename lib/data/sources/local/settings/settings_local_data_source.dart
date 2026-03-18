@@ -1,4 +1,4 @@
-import 'package:flutter_template/data/constants/storage_keys.dart';
+import 'package:recho/data/constants/storage_keys.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class SettingsLocalDataSource {
@@ -7,7 +7,7 @@ abstract class SettingsLocalDataSource {
   Future<void> saveThemeIndex(int index);
 
   String? getLocaleTag();
-  
+
   Future<void> saveLocaleTag(String? tag);
 }
 

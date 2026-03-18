@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template/core/di/injection_container.dart';
-import 'package:flutter_template/presentation/common/l10n/generated/app_localizations.dart';
-import 'package:flutter_template/presentation/common/locale/locale_cubit.dart';
-import 'package:flutter_template/presentation/router/app_router.dart';
-import 'package:flutter_template/presentation/common/theme/app_theme.dart';
-import 'package:flutter_template/presentation/common/theme/theme_cubit.dart';
+import 'package:recho/core/di/injection_container.dart';
+import 'package:recho/presentation/common/l10n/generated/app_localizations.dart';
+import 'package:recho/presentation/common/locale/locale_cubit.dart';
+import 'package:recho/presentation/router/app_router.dart';
+import 'package:recho/presentation/common/theme/app_theme.dart';
+import 'package:recho/presentation/common/theme/theme_cubit.dart';
 
 void main() async {
   await initDependencies();

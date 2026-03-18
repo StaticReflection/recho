@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template/presentation/common/extensions/build_context.dart';
-import 'package:flutter_template/presentation/common/base/base_view.dart';
-import 'package:flutter_template/presentation/common/locale/locale_cubit.dart';
-import 'package:flutter_template/presentation/common/theme/theme_cubit.dart';
-import 'package:flutter_template/presentation/home/bloc/home_bloc.dart';
-import 'package:flutter_template/presentation/home/widgets/locale_selector.dart';
-import 'package:flutter_template/presentation/home/widgets/theme_mode_selector.dart';
+import 'package:recho/presentation/common/extensions/build_context.dart';
+import 'package:recho/presentation/common/base/base_view.dart';
+import 'package:recho/presentation/common/locale/locale_cubit.dart';
+import 'package:recho/presentation/common/theme/theme_cubit.dart';
+import 'package:recho/presentation/home/bloc/home_bloc.dart';
+import 'package:recho/presentation/home/widgets/locale_selector.dart';
+import 'package:recho/presentation/home/widgets/theme_mode_selector.dart';
 
 class HomeView extends BaseView<HomeBloc, HomeEffect> {
   const HomeView({super.key});
@@ -14,7 +14,7 @@ class HomeView extends BaseView<HomeBloc, HomeEffect> {
   @override
   Widget buildWidget(BuildContext context, HomeBloc bloc) {
     return Scaffold(
-      appBar: AppBar(title: Text(context.l10n.app_title)),
+      appBar: AppBar(title: Text(context.l10n.appTitle)),
       body: BlocBuilder<HomeBloc, HomeState>(
         builder: (context, state) {
           return switch (state) {

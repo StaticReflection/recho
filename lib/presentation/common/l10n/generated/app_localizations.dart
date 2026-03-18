@@ -98,11 +98,11 @@ abstract class AppLocalizations {
     Locale('zh'),
   ];
 
-  /// No description provided for @app_title.
+  /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Flutter Template'**
-  String get app_title;
+  /// **'Recho'**
+  String get appTitle;
 }
 
 class _AppLocalizationsDelegate

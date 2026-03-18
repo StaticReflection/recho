@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template/core/bloc/base_bloc.dart';
+import 'package:recho/core/bloc/base_bloc.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';

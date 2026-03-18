@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template/core/bloc/base_bloc.dart';
-import 'package:flutter_template/presentation/common/base/ui_feedback.dart';
+import 'package:recho/core/bloc/base_bloc.dart';
+import 'package:recho/presentation/common/base/ui_feedback.dart';
 
 /// [B]: Bloc 类型
 /// [E]: Effect 副作用类型
